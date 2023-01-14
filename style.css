@@ -62,12 +62,22 @@ nav{
 .btn-primary{
     font-size: 16px;
     font-weight: 600;
-    padding: 10px 10px;
+    padding: 12px 15px;
     border: 0;
     background-color: rgba(255, 144, 14, 1) ;
+    border: 2px solid rgba(255, 144, 14, 1);
     color: rgba(255, 255, 255, 1);
     border-radius: 5px;
     margin-bottom: 30px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+.btn-primary:hover{
+
+    background-color: transparent;
+    color: rgba(255, 144, 14, 1);
+    border: 2px solid rgba(255, 144, 14, 1);
+
 }
 
 .banner-img{
@@ -185,7 +195,7 @@ nav{
 #some-facts{
 
     margin-top: 130px;
-    margin-bottom: 100px;
+
 }
 
 .facts-details{
@@ -235,4 +245,59 @@ nav{
 }
 .fact-icon{
     margin-left: 45px;
+}
+
+/* Our sponsors */
+
+#our-sponsors{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.sponsor{
+    margin-top: 30px;
+    margin-left: 80px;
+    filter: grayscale(100%);
+}
+
+/* Let's talks */
+
+#let-talk{
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 150px;    
+}
+
+.section-des{
+    color: rgba(114, 114, 114, 1);
+    font-size: 18px;
+}
+
+.btn-secondary{
+    font-size: 18px;
+    font-weight: 550;
+    padding: 10px 30px;
+    border: 2px solid rgba(255, 144, 14, 1);
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgba(255, 144, 14, 1);
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+.btn-secondary:hover{
+    background-color: rgba(255, 144, 14, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Footer */
+
+footer{
+    background-color: rgba(255, 144, 14, 0.1);
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
 }
