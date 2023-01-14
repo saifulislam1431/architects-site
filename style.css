@@ -162,7 +162,6 @@ nav{
     position: relative;
     margin-top: -10%;
     margin-left: 52%;
-    margin-bottom: 100px;
     background-color: rgba(255, 144, 14, 1);
     border-radius: 5px;
     width: 180px;
@@ -179,4 +178,61 @@ nav{
 .experience{
     font-size: 30px;
     font-weight: 650;
+}
+
+/* Some Facts */
+
+#some-facts{
+
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.facts-details{
+    padding-left: 290px ;
+}
+
+.facts-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.facts-description{
+    color: rgba(114, 114, 114, 1);
+}
+
+.facts{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.fact{
+    border: 2px solid rgba(255, 144, 14, 1);
+    border-radius: 5px;
+    width: 180px;
+    height: 160px;
+    padding: 20px;
+    transition: transform 1s ease;
+}
+
+.fact:hover{
+    transform: rotate(-30deg);
+}
+
+ .fact-num, .fact-name{
+
+    text-align: center;
+}
+.fact-num{
+    font-size: 30px;
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+.fact-name{
+    color: rgba(114, 114, 114, 1);
+}
+.fact-icon{
+    margin-left: 45px;
 }
